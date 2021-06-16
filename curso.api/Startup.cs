@@ -1,8 +1,13 @@
+using curso.api.Business.Repositories;
+using curso.api.Configurations;
+using curso.api.Infraestruture.Data;
+using curso.api.Infraestruture.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -92,6 +97,20 @@ namespace curso.api
             });
 
             // JWT - Fim da configuração do JTW
+
+            // Injeção de Dependencia
+            // IUsuarioRepository usuario = new IUsuarioRepository();
+
+            services.AddDbContext<CursoDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            //services.AddScoped<ICursoRepository, CursoRepository>();
+            services.AddScoped<IAuthenticationService, JwtService>();
+
+            //Fim da Injeção de Dependencia
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

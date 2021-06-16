@@ -1,6 +1,7 @@
 ﻿using curso.api.Infraestruture.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace curso.api.Configurations
 {
@@ -8,10 +9,13 @@ namespace curso.api.Configurations
     {
         public CursoDbContext CreateDbContext(string[] args)
         {
-            var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
-            optionsBuilder.UseSqlServer("Server=localhost;Database=CURSO;user=sa;password=akarajalho");
-            CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options);
+            var configuration = new ConfigurationBuilder()
+                                    .AddJsonFile("appsettings.json")
+                                    .Build();
 
+            var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+            CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options);
             return contexto;
         }
     }

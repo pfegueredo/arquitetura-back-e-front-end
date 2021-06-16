@@ -8,6 +8,9 @@ using curso.api.Models.Cursos;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using curso.api.Business.Repositories;
+using Microsoft.Extensions.Configuration;
+using curso.api.Configurations;
 
 namespace curso.api.Controllers
 {
@@ -17,11 +20,24 @@ namespace curso.api.Controllers
     
     public class CursoController : ControllerBase
     {
+        private readonly ICursoRepository _cursoRepository;
+        private readonly IConfiguration _configuration;
+        private readonly IAuthenticationService _authentication;
+        public CursoController(
+            ICursoRepository cursoRepository,
+            IConfiguration configuration,
+            IAuthenticationService authentication)
+        {
+            _cursoRepository = cursoRepository;
+            _configuration = configuration;
+            _authentication = authentication;
+        }
+
         /// <summary>
         /// Este serviço permite cadastrar cursos para o usuário autenticado
         /// </summary>
         /// <returns>Retorna status 201 e dados do curso do usuário</returns>
-        
+
         [SwaggerResponse(statusCode: 200, description: "Sucesso ao cadastrar um curso")]
         [SwaggerResponse(statusCode: 401, description: "Não autorizado")]
 

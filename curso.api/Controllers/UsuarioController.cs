@@ -1,16 +1,15 @@
 ﻿using curso.api.Business.Entities;
+using curso.api.Business.Repositories;
+using curso.api.Configurations;
 using curso.api.Filters;
 using curso.api.Infraestruture.Data;
 using curso.api.Models;
 using curso.api.Models.Usuarios;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Swashbuckle.AspNetCore.Annotations;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace curso.api.Controllers
 {
@@ -18,6 +17,20 @@ namespace curso.api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+        
+        private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IConfiguration _configuration;
+        private readonly IAuthenticationService _authentication;
+        public UsuarioController(  //Alterar para o nome da classe
+            IUsuarioRepository usuarioRepository, 
+            IConfiguration configuration,
+            IAuthenticationService authentication)
+        {
+            _usuarioRepository = usuarioRepository;
+            _configuration = configuration;
+            _authentication = authentication;
+        }
+
         /// <summary>
         /// Este serviço permite autenticar um usuário cadastrado e ativo
         /// </summary>
@@ -32,10 +45,12 @@ namespace curso.api.Controllers
         [ValidacaoModelStateCustomizado] //valida formularios baseado na classe Filters/ValidacaoModel...
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    return BadRequest(new ValidaCampoViewModelOutput(ModelState.SelectMany(sm => sm.Value.Errors).Select(s => s.ErrorMessage)));
-            //}
+            var usuario = _usuarioRepository.ObterUsuario(loginViewModelInput.Login);
+
+            if (usuario == null)
+            {
+                return BadRequest("Houve um erro ao tentar acessar. Usuário em branco.");
+            }
 
             var usuarioViewModelOutput = new UsuarioViewModelOutput()
             {
@@ -52,17 +67,17 @@ namespace curso.api.Controllers
         [ValidacaoModelStateCustomizado]
         public IActionResult Registrar(RegistroViewModelInput loginViewModelInput)
         {
-            var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
-            optionsBuilder.UseSqlServer("Server=localhost;Database=CURSO;user=sa;password=akarajalho");
+            //var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
+            //optionsBuilder.UseSqlServer("Server=192.168.0.22;Database=CURSO;user=sa;password=akarajalho");
             
-            CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options); //Instanciar o BD através do Contexto
+            //CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options); //Instanciar o BD através do Contexto
 
-            var migracoesPendentes = contexto.Database.GetPendingMigrations();
-
-            if (migracoesPendentes.Count() > 0)
-            {
-                contexto.Database.Migrate();
-            }
+            //Verifica se tem migrações pendentes e as retoma
+            //var migracoesPendentes = contexto.Database.GetPendingMigrations();
+            //if (migracoesPendentes.Count() > 0)
+            //{
+            //    contexto.Database.Migrate();
+            //}
             
             var usuario = new Usuario();
             
@@ -70,8 +85,9 @@ namespace curso.api.Controllers
             usuario.Senha = loginViewModelInput.Senha;
             usuario.Email = loginViewModelInput.Email;
 
-            contexto.Usuario.Add(usuario);
-            contexto.SaveChanges();
+            
+            _usuarioRepository.Adicionar(usuario);
+            _usuarioRepository.Commit();
 
             return Created("", loginViewModelInput);
         }
