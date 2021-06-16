@@ -1,0 +1,182 @@
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\appsettings.json
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.exe
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.deps.json
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.runtimeconfig.json
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.runtimeconfig.dev.json
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.xml
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csprojAssemblyReference.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.AssemblyInfoInputs.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.AssemblyInfo.cs
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csproj.CoreCompileInputs.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.MvcApplicationPartsAssemblyInfo.cs
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.MvcApplicationPartsAssemblyInfo.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\staticwebassets\curso.api.StaticWebAssets.Manifest.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\staticwebassets\curso.api.StaticWebAssets.xml
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\scopedcss\bundle\curso.api.styles.css
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.RazorTargetAssemblyInfo.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csproj.CopyComplete
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.dll
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.genruntimeconfig.cache
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Humanizer.dll
+C:\TUDO\Projetos .NET\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\appsettings.json
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.exe
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.deps.json
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.runtimeconfig.json
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.runtimeconfig.dev.json
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\curso.api.xml
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Humanizer.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csprojAssemblyReference.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.AssemblyInfoInputs.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.AssemblyInfo.cs
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csproj.CoreCompileInputs.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.MvcApplicationPartsAssemblyInfo.cs
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.MvcApplicationPartsAssemblyInfo.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\staticwebassets\curso.api.StaticWebAssets.Manifest.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\staticwebassets\curso.api.StaticWebAssets.xml
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\scopedcss\bundle\curso.api.styles.css
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.RazorTargetAssemblyInfo.cache
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.csproj.CopyComplete
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.dll
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.pdb
+C:\TUDO\Projetos\CSharp\curso\curso.api\obj\Debug\netcoreapp3.0\curso.api.genruntimeconfig.cache

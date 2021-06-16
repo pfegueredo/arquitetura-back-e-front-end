@@ -1,0 +1,4 @@
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp2.2\curso.api.csprojAssemblyReference.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp2.2\curso.api.AssemblyInfoInputs.cache
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp2.2\curso.api.AssemblyInfo.cs
+C:\TUDO\Projetos .NET\curso\curso.api\obj\Debug\netcoreapp2.2\curso.api.csproj.CoreCompileInputs.cache
