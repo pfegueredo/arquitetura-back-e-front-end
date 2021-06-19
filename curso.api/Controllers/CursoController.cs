@@ -11,13 +11,14 @@ using Microsoft.AspNetCore.Authorization;
 using curso.api.Business.Repositories;
 using Microsoft.Extensions.Configuration;
 using curso.api.Configurations;
+using curso.api.Business.Entities;
 
 namespace curso.api.Controllers
 {
     [Route("api/v1/cursos")]
     [ApiController]
     [Authorize]
-    
+
     public class CursoController : ControllerBase
     {
         private readonly ICursoRepository _cursoRepository;
@@ -45,11 +46,34 @@ namespace curso.api.Controllers
         [Route("")]
         public async Task<IActionResult> Post(CursosViewModelInput cursoViewModelInput)
         {
-            var codigoUsuario = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value);
-            return Created("", cursoViewModelInput);
-        }
+            try
+            {
+                Curso curso = new Curso
+                {
+                    Nome = cursoViewModelInput.Nome,
+                    Descricao = cursoViewModelInput.Descricao
+                };
 
+                var codigoUsuario = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value);
+                curso.CodigoUsuario = codigoUsuario;
+                _cursoRepository.Adicionar(curso);
+                _cursoRepository.Commit();
 
+                var cursoViewModelOutput = new CursoViewModelOutput
+                {
+                    Nome = curso.Nome,
+                    Descricao = curso.Descricao,
+                };
+
+                return Created("", cursoViewModelOutput);
+            }
+        
+            catch (Exception ex)
+            {
+              //_logger.LogError(ex.ToString());
+              return new StatusCodeResult(500);
+             }
+    }
         /// <summary>
         /// Este serviço permite obter os cursos cadastrado
         /// </summary>
@@ -62,17 +86,16 @@ namespace curso.api.Controllers
         [Route("")]
         public async Task<IActionResult> Get(CursosViewModelInput cursoViewModelInput)
         {
-            //Cria uma lista Fake
-            var cursos = new List<CursoViewModelOutput>();
-
             var codigoUsuario = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value);
-            cursos.Add(new CursoViewModelOutput()
-            {
-                Login = codigoUsuario.ToString(),
-                Descricao = "Teste",
-                Nome = "Teste Nome"
 
-            });
+            var cursos = _cursoRepository.ObterPorUsuario(codigoUsuario)
+                .Select(s => new CursoViewModelOutput()
+                {
+                    Nome = s.Nome,
+                    Descricao = s.Descricao,
+                    Login = s.Usuario.Login
+                });
+            
             return Ok(cursos);
         }
     }

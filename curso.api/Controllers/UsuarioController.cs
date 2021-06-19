@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace curso.api.Controllers
 {
@@ -43,9 +44,9 @@ namespace curso.api.Controllers
         [HttpPost]
         [Route("logar")]
         [ValidacaoModelStateCustomizado] //valida formularios baseado na classe Filters/ValidacaoModel...
-        public IActionResult Logar(LoginViewModelInput loginViewModelInput)
+        public async Task<IActionResult> Logar(LoginViewModelInput loginViewModelInput)
         {
-            var usuario = _usuarioRepository.ObterUsuario(loginViewModelInput.Login);
+            var usuario = _usuarioRepository.ObterUsuarioAsync(loginViewModelInput.Login);
 
             if (usuario == null)
             {

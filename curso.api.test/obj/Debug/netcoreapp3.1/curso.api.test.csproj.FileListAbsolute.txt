@@ -1,0 +1,4 @@
+C:\TUDO\Projetos\CSharp\DIO.cursoAPI\curso.api.test\obj\Debug\netcoreapp3.1\curso.api.test.csprojAssemblyReference.cache
+C:\TUDO\Projetos\CSharp\DIO.cursoAPI\curso.api.test\obj\Debug\netcoreapp3.1\curso.api.test.AssemblyInfoInputs.cache
+C:\TUDO\Projetos\CSharp\DIO.cursoAPI\curso.api.test\obj\Debug\netcoreapp3.1\curso.api.test.AssemblyInfo.cs
+C:\TUDO\Projetos\CSharp\DIO.cursoAPI\curso.api.test\obj\Debug\netcoreapp3.1\curso.api.test.csproj.CoreCompileInputs.cache

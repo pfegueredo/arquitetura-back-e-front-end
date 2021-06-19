@@ -1,6 +1,7 @@
 using curso.api.Business.Repositories;
 using curso.api.Configurations;
 using curso.api.Infraestruture.Data;
+using curso.api.Infraestruture.Data.Repositories;
 using curso.api.Infraestruture.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -107,7 +108,7 @@ namespace curso.api
             });
 
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-            //services.AddScoped<ICursoRepository, CursoRepository>();
+            services.AddScoped<ICursoRepository, CursoRepository>();
             services.AddScoped<IAuthenticationService, JwtService>();
 
             //Fim da Injeção de Dependencia

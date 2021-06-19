@@ -28,9 +28,9 @@ namespace curso.api.Infraestruture.Repositories
             _contexto.SaveChanges();
         }
 
-        public Usuario ObterUsuario(string login)
+        public async Task<Usuario> ObterUsuarioAsync(string login)
         {
-            return _contexto.Usuario.FirstOrDefault(u => u.Login == login);
+            return await _contexto.Usuario.FirstOrDefaultAsync(u => u.Login == login);
         }
     }
 }
