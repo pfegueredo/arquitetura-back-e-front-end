@@ -44,7 +44,7 @@ namespace curso.api.Controllers
 
         [HttpPost]
         [Route("")]
-        public async Task<IActionResult> Post(CursosViewModelInput cursoViewModelInput)
+        public async Task<IActionResult> Post(CursoViewModelInput cursoViewModelInput)
         {
             try
             {
@@ -58,6 +58,9 @@ namespace curso.api.Controllers
                 curso.CodigoUsuario = codigoUsuario;
                 _cursoRepository.Adicionar(curso);
                 _cursoRepository.Commit();
+
+                //var cursoViewModelOutput = new CursoViewModelOutput();
+
 
                 var cursoViewModelOutput = new CursoViewModelOutput
                 {
@@ -84,7 +87,7 @@ namespace curso.api.Controllers
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> Get(CursosViewModelInput cursoViewModelInput)
+        public async Task<IActionResult> Get(CursoViewModelInput cursoViewModelInput)
         {
             var codigoUsuario = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value);
 

@@ -66,11 +66,11 @@ namespace curso.api.Controllers
         [HttpPost]
         [Route("registrar")]
         [ValidacaoModelStateCustomizado]
-        public IActionResult Registrar(RegistroViewModelInput loginViewModelInput)
+        public async Task<IActionResult> Registrar(RegistroViewModelInput loginViewModelInput)
         {
             //var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
             //optionsBuilder.UseSqlServer("Server=192.168.0.22;Database=CURSO;user=sa;password=akarajalho");
-            
+
             //CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options); //Instanciar o BD através do Contexto
 
             //Verifica se tem migrações pendentes e as retoma
@@ -79,9 +79,15 @@ namespace curso.api.Controllers
             //{
             //    contexto.Database.Migrate();
             //}
-            
-            var usuario = new Usuario();
-            
+
+            var usuario = await _usuarioRepository.ObterUsuarioAsync(loginViewModelInput.Login);
+
+            if (usuario != null)
+            {
+                return BadRequest("Usuario já cadastrado");
+            }
+
+            usuario = new Usuario();
             usuario.Login = loginViewModelInput.Login;
             usuario.Senha = loginViewModelInput.Senha;
             usuario.Email = loginViewModelInput.Email;
