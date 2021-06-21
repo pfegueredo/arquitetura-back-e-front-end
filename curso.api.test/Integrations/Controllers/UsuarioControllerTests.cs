@@ -8,6 +8,7 @@ using System.Text;
 using Xunit.Abstractions;
 using System.Threading.Tasks;
 using AutoBogus;
+using curso.api.test.Configurations;
 
 namespace curso.api.test.Integrations.Controllers
 {
@@ -34,7 +35,7 @@ namespace curso.api.test.Integrations.Controllers
         public async Task Registrar_InformandoUsuarioESenha_DeveRetornarSucesso()
         {
             // Arrange
-            RegistroViewModelInput = new AutoFaker<RegistroViewModelInput>()
+            RegistroViewModelInput = new AutoFaker<RegistroViewModelInput>(AutoBogusConfiguration.LOCATE)
                                             .RuleFor(p => p.Email, faker => faker.Person.Email);
             
             
